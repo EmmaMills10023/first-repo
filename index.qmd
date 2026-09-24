@@ -1,0 +1,20 @@
+---
+title: "git practice"
+format: html
+editor: source
+embed-resources: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+library(tidyverse)
+
+storms %>%
+  filter(
+    year > 2000) %>%
+  ggplot() + 
+  geom_bar(mapping = aes(x = category)) + 
+  facet_wrap(~year)
+```
+
