@@ -1,5 +1,6 @@
 ---
-title: "git practice"
+title: "Storms Analysis"
+name: "Emma Mills"
 format: html
 editor: source
 embed-resources: true
